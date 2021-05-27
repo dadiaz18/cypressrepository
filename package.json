@@ -6,7 +6,10 @@
   "dependencies": {
     "cypress": "^7.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-plugin-cypress": "^2.11.3"
+  },
   "scripts": {
     "test": "./node_modules/.bin/cypress run",
     "test:chrome": "./node_modules/.bin/cypress run --browser chrome"
